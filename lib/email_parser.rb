@@ -17,8 +17,8 @@ class EmailAddressParser
     email_array = []
     
     @emails.split(/[\,\s]+/).each do |email|
-    #   email_array << email
-    # end
+      email_array << email
+    end
     
     # email_array
   end
