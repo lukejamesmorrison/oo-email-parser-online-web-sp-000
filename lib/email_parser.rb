@@ -16,9 +16,7 @@ class EmailAddressParser
   def parse
     email_array = []
     
-    puts @emails.split(/[\,\s]+/).inspect
-    
-    # @emails.match(/[^\,\s]+/).each do |email|
+    @emails.split(/[\,\s]+/).each do |email|
     #   email_array << email
     # end
     
